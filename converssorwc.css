@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+body {
+  background-color: rgb(140, 82, 254);
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  opacity: 0.8;
+}
+
+#logo-maos {
+  width: 92px;
+  margin: 0 auto;
+  display: block;
+}
+
+.inputs {
+  background: #fff;
+  width: 375px;
+  height: 515px;
+  padding: 15px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.inputs select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  appearance: none;
+  cursor: pointer;
+}
+
+#logo-brasil {
+  width: 60px;
+  margin: 0 auto;
+  display: block;
+}
+
+#logo-seta {
+  width: 60px;
+  margin: 7px auto 0;
+  display: block;
+}
+
+#logo-usa {
+  width: 60px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.impressao-js {
+  border: 1px solid rgb(140, 82, 254);
+  border-radius: 15px;
+  margin-top: 38px;
+}
+#brasil p {
+  text-align: center;
+}
+
+#usa p {
+  text-align: center;
+}
+
+#input-convertion {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  background: rgb(140, 82, 254);
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  width: 227px;
+  height: 36px;
+  display: block;
+  line-height: 37px;
+  margin: 12px auto 0;
+  margin-bottom: -22px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
